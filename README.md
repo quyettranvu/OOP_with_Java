@@ -18,9 +18,7 @@ Here are some other differences:
 - An abstract class can provide some default implementation for its methods, while an interface cannot. (no concrete methods - those will be defined concretely in class where implement it)
 - An abstract class is meant to be subclassed, while an interface is meant to be implemented.
 - In general, we use an abstract class when we want to provide a common implementation for a set of related classes, and we use an interface when we want to define a common set of methods that a set of unrelated classes should implement.
-
--Child class inherit abstract class can be assigned as an abstract class but in contrast not compatible (abstract class can not be assigned as a child class).
-
+- Child class inherit abstract class can be assigned as an abstract class but in contrast not compatible (abstract class can not be assigned as a child class).
 - Abstract class can not be initialized and must be initialized with the help of children classes(inherit it), also if abstract class has a constructor then every children class is initialized will be at first set and call this constructor.
 
 
