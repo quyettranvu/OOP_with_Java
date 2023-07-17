@@ -21,5 +21,7 @@ Here are some other differences:
 - Child class inherit abstract class can be assigned as an abstract class but in contrast not compatible (abstract class can not be assigned as a child class).
 - Abstract class can not be initialized and must be initialized with the help of children classes(inherit it), also if abstract class has a constructor then every children class is initialized will be at first set and call this constructor.
 
+P/s: Before coming to OOP, I learnt about data structure and its basics. After a long period of time for learning and using both data structure and OOP, and also read books, here are ones of my favorite sentences: 
+- Objects expose behavior and hide data. This makes it easy to add new kinds of objects without changing existing behaviors. It also makes it hard to add new behaviors to existing objects. Data structures expose data and have no significant behavior. This makes it easy to add new behaviors to existing data structures but makes it hard to add new data structures to existing functions. In practical, we will sometimes want the flexibility to add new data types, and so we prefer objects for that part of the system. Other times we will want the flexibility to add new behaviors, and so in that part of the system we prefer data types and procedures.
 
 
