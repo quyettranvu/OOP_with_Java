@@ -7,7 +7,7 @@ public class Ebook extends Book {
         this.format = format;
     }
 
-    // override method(polymorphism)
+    // inherit method -> and use for overload(polymorphism)
     public void generalInfo() {
         System.out.println("This is an ebook");
     }
@@ -15,7 +15,6 @@ public class Ebook extends Book {
     public void generalInfo(int publishedTime) {
         for (int i = 0; i < publishedTime; i++) {
             System.out.println("This is an ebook");
-
         }
     }
 
